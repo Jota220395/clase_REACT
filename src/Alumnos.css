@@ -1,0 +1,28 @@
+table{
+    border:1px solid black;
+    
+}
+
+td{
+    border:1px 0px 0px 0px solid black;
+    width: 12%;
+    text-align: center;
+}
+
+.btn-eliminar{
+    color: rgba(255, 255, 255, 0.9) ;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0.5em 0.5em;
+  background: #90b88e;
+  border: 2px solid;
+  border-color: #0a0a0a;
+  position: relative;
+}
+
+.btn-eliminar:hover{
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 4px 16px rgb(172, 74, 49);
+    transition: all 0.2s ease;
+}
+
